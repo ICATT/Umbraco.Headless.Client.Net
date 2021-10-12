@@ -33,6 +33,7 @@ namespace Umbraco.Headless.Client.Net
             public const string BaseMediaUrl = "https://media.umbraco.io";
             public const string BasePreviewUrl = "https://preview.umbraco.io";
             public const string BaseGraphqlUrl = "https://graphql.umbraco.io";
+            public const string BaseBackofficeUrl = "https://{ProjectAlias}.s1.umbraco.io/umbraco/backoffice/UmbracoApi";
         }
 
         public static class Headers
