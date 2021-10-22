@@ -85,7 +85,7 @@ namespace Umbraco.Headless.Client.Net.Api.RedirectUrlManagement
 
         public async Task<RedirectUrlSearchResult> SearchRedirectUrlsAsync(string searchTerm, int pageIndex, int pageSize = 20)
         {
-            var result = await Get(x => x.GetSearchResults(Configuration.ProjectAlias, searchTerm, pageIndex, pageSize)).ConfigureAwait(false);
+            var result = await Get(x => x.SearchRedirectUrls(Configuration.ProjectAlias, searchTerm, pageIndex, pageSize)).ConfigureAwait(false);
             
             return result;
         }
