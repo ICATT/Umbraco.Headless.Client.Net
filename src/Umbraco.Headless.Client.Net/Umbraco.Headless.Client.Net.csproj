@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>7.3</LangVersion>
-    <Company>Umbraco HQ</Company>
-    <Authors>Umbraco HQ</Authors>
+    <Company>Umbraco HQ &amp; ICATT</Company>
+    <Authors>Umbraco HQ &amp; ICATT</Authors>
     <Description>.NETStandard client library for the Umbraco Headless APIs</Description>
     <Copyright>2019</Copyright>
     <PackageTags>headless, umbraco, sdk</PackageTags>
@@ -13,11 +13,15 @@
     <PackageIconUrl>https://umbraco.com/dist/nuget/logo-small.png</PackageIconUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/umbraco/Umbraco.Headless.Client.Net</RepositoryUrl>
+    <AssemblyVersion>1.3.3.0</AssemblyVersion>
+    <FileVersion>1.0.3.0</FileVersion>
+    <Version>1.3.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="refit" Version="4.7.51" />
-     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.4" PrivateAssets="all" />
+     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.2" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>
